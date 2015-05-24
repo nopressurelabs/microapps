@@ -84,8 +84,22 @@
         in the url.
       </p>
 
+      <h4>LocalPic</h4>
 
-      <h4></h4>
+      <p>LocalPic is a microapp developed to illustrate how to handle operations that
+        <em>need to be completed later</em> in Rails.</p>
+
+      <div class="colored">
+        <a href="https://github.com/hiromipaw/localpic" class="btn">View on GitHub</a>
+        <a href="https://github.com/hiromipaw/localpic/zipball/master" class="btn">Download .zip</a>
+        <a href="https://github.com/hiromipaw/localpic/tarball/master" class="btn">Download .tar.gz</a>
+      </div>
+
+      <p>
+        LocalPic process images in the background using Sidekiq workers. Images are
+        uploaded through API calls. To handle images uploads refile it is used, and
+        the file are then stored on S3.
+      </p>
 
       <h3>
         <a id="emberjs" class="anchor" href="#emberjs" aria-hidden="true">
