@@ -8,4 +8,4 @@ A microapp does one thing only and exposes a RESTful API. Microapps can be used 
 
 At the moment a microapp is just a rails-api app + postgres + ActiveModel::Serializer. We would like to extend this to provide a template for building standalone micro applications.
 
-Check the website microapps.io for more examples.
+Check the website [microapps.io](http://www.microapps.io) for more examples.
