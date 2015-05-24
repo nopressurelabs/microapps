@@ -50,6 +50,7 @@
       <ul>
         <li><a href="#wikicat">WikiCat</a></li>
         <li><a href="#localpic">LocalPic</a></li>
+        <li><a href="#wikipin">WikiPin</a></li>
       </ul>
 
       <h4 id="wikicat">WikiCat</h4>
@@ -104,6 +105,26 @@
         LocalPic process images in the background using Sidekiq workers. Images are
         uploaded through API calls. To handle images uploads refile it is used, and
         the file are then stored on S3.
+      </p>
+
+      <h4 id="wikipin">WikiPin</h4>
+
+      <p>
+        WikiPin is a hypermedia API for wikipedia geolocated articles. Once a GET
+        request is sent to the API entry point, the IP is geo-located and near-by
+        wikipedia articles are returned.
+      </p>
+
+      <div class="colored">
+        <a href="https://github.com/hiromipaw/wikipin" class="btn">View on GitHub</a>
+        <a href="https://github.com/hiromipaw/wikipin/zipball/master" class="btn">Download .zip</a>
+        <a href="https://github.com/hiromipaw/wikipin/tarball/master" class="btn">Download .tar.gz</a>
+      </div>
+
+      <p>
+        Needs Wikipedia processed dump, available
+        <a href="www.dropbox.com/sh/pz9qrb33lx1uibr/AACe9WkYWC8iP1zbw89J4hoaa?dl=0">here</a>.
+        The file “backup” is full postgres db backup and can be imported.
       </p>
 
       <h3>
